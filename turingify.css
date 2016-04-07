@@ -1,0 +1,182 @@
+html,
+body,
+
+.cover {    
+    height: 100%;
+}
+
+.cover {
+    background: url('img/tactics.jpg') center no-repeat;
+    background-size: cover;
+    display: table;
+    width: 100%;
+    padding: 0 20%;
+    box-shadow: inset 0 0 50px #000;
+}
+
+.intro-body {    
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro-body h1 {
+    margin: 0;
+    font-size: 70px;
+    letter-spacing: -3px;
+}
+
+nav {    
+    font-family: helvetica, times, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;    
+}
+
+.icon-bar {
+	background-color: #fff;
+}
+
+.navbar-trans {
+	background-color:#333333;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+}
+
+.navbar-trans li>a:hover,.navbar-trans li>a:focus{
+	background-color: black;
+}
+
+.navbar-trans a{
+    color: #fefefe;
+}
+
+section {
+    padding: 60px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin:  0 0 30px;
+}
+
+#about {
+    background: url('img/digital-dashboard-background-full-169.jpg') center no-repeat;    
+    background-size: cover;
+    width: 100%;    
+    text-align: center;
+    color: #133913;
+    font-size: 28px;
+    font-weight: 200;    
+}
+
+blockquote {
+    border: none;
+    margin: 0;
+    font-family: georgia, times, serif;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 22px;
+    color: #133913;
+}
+
+blockquote cite {
+    display: block;
+    text-align: right;
+    text-transform: uppercase;
+    font-family: helvetica, arial, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;    
+}
+
+#work {
+    background: url('img/chalkboard55.png') center no-repeat;    
+    background-size: cover;
+    width: 100%;    
+    box-shadow: inset 0 0 100px #000;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-weight: 100; 
+    margin: 0;
+    border: none;
+}
+
+#work a {
+    background-color: #f2f2f2;
+    color: #133913;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    box-shadow: 0px 0px 30px black;
+    border: solid 2px #e6e6e6;
+    margin: 0;
+}
+
+#contact {
+    background: url('img/digital-dashboard-background-full-169.jpg') center no-repeat;    
+    background-size: cover;
+    width: 100%;    
+    text-align: center;
+    color: #133913;
+    font-size: 28px;
+    font-weight: 200;
+}
+
+#mail {
+    color: black;
+    font-weight: bold;    
+}
+
+#contact blockquote {
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+.buttons {
+    background-color: #133913;
+    color: #f2f2f2;  
+    border: solid 2px #003300;
+    box-shadow: 0px 0px 10px black;
+}
+
+.buttons:hover {    
+    color: black;
+    border: none;
+}
+
+footer {
+    background: #222;
+    color: white;
+    width: 100%;
+    padding-top: 10px;    
+    font-style: normal;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;    
+    font-family: georgia, times, serif;
+}
+
+footer a {
+    color: plum;
+}
+
+footer a:visited {
+    color: plum;
+}
+
+footer a:hover {
+    color: darkmagenta;
+    text-decoration: none;
+}
